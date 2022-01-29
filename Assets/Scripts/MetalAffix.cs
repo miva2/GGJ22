@@ -35,8 +35,8 @@ public class MetalAffix
     {
         return new List<string>()
         {
-            "God",
-            "Heim",
+            "god",
+            "heim",
             " Eternity",
             " Cannibal",
             " Beast",
@@ -47,7 +47,7 @@ public class MetalAffix
             " Era",
             " Blood",
             " Powerplant",
-            "Lord",
+            "lord",
             " Devourer"
         };
     }
