@@ -10,10 +10,15 @@ public class PrintMetalName : MonoBehaviour
 
        Debug.Log(MetalBandNameGenerator.Generate("Boomer", 1, 1));
        Debug.Log(MetalBandNameGenerator.Generate("Alberto Vermicelli", 1, 1));
-       Debug.Log(MetalBandNameGenerator.Generate("Kain's key", 1, 1));
+       Debug.Log(MetalBandNameGenerator.Generate("Kain's Key", 1, 1));
        Debug.Log(MetalBandNameGenerator.Generate("Death Riddles Explained", 1, 1));
-       Debug.Log(MetalBandNameGenerator.Generate("Destructor of innards", 1, 1));
+       Debug.Log(MetalBandNameGenerator.Generate("Destructor Of Innards", 1, 1));
        Debug.Log(MetalBandNameGenerator.Generate("Gorewolf", 1, 1)); 
+
+
+       Debug.Log(MetalBandNameGenerator.Generate("Mesmerising Miasma", 0.1f, 0.1f));
+       Debug.Log(MetalBandNameGenerator.Generate("Heavy Death", 0.5f, 0.5f)); 
+       Debug.Log(MetalBandNameGenerator.Generate("Clones Of War", 0.8f, 0.8f)); 
 
     }
 
